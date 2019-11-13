@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LayoutSpecification xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="ShftDet" Version="9" GenerateAllSections="true" GenerateClientRules="true">
+  <BlockLayoutInstructions>
+    <BlockLayoutInstructions BlockName="BIntDet">
+      <RouteItemInstructions>
+        <RouteItemLayoutInstructions RouteItemName="StHour">
+          <Instructions>
+            <TemplateInstruction TemplateName="NumberTextBox" TemplateTarget="ResponseValue" Parameters="{ParameterValues AutoEnter='True';Margin='5,5,0,5'}" />
+          </Instructions>
+        </RouteItemLayoutInstructions>
+        <RouteItemLayoutInstructions RouteItemName="StMinutes">
+          <Instructions>
+            <TemplateInstruction TemplateName="NumberTextBox" TemplateTarget="ResponseValue" Parameters="{ParameterValues AutoEnter='True';Margin='0,5,5,5'}" />
+          </Instructions>
+        </RouteItemLayoutInstructions>
+      </RouteItemInstructions>
+    </BlockLayoutInstructions>
+  </BlockLayoutInstructions>
+  <Languages>
+    <Language Name="ENG" />
+  </Languages>
+  <LayoutSets>
+    <LayoutSet Name="Interviewing1" ResourceSetName="Medium_Touch" StyleName="PenTab" RequiredStyle="false" DesignHeight="850" DesignWidth="740" ResizeMode="Auto" RouteItemsPerPage="6" RowsPerTable="999" ReceiptPageName="NewCase" IntroPageName="" AbortPageName="Default">
+      <InstanceLayoutInstructions>
+        <RouteItemLayoutInstructions RouteItemName="Site">
+          <Instructions>
+            <TemplateInstruction TemplateName="PushButtons" TemplateTarget="DataValue" Parameters="{ParameterValues Arrangement='2 Rows';AutoEnter='True'}" />
+          </Instructions>
+        </RouteItemLayoutInstructions>
+        <RouteItemLayoutInstructions RouteItemName="sample">
+          <Instructions>
+            <TemplateInstruction TemplateName="Horizontal" TemplateTarget="FieldPane" />
+            <TemplateInstruction TemplateName="PushButtons1col" TemplateTarget="DataValue" Parameters="{ParameterValues Arrangement='1 Row'}" />
+          </Instructions>
+        </RouteItemLayoutInstructions>
+        <RouteItemLayoutInstructions RouteItemName="day">
+          <Instructions>
+            <TemplateInstruction TemplateName="Button_S" TemplateTarget="Category" Parameters="{ParameterValues Width='90'}" ObjectName="" />
+            <TemplateInstruction TemplateName="Horizontal" TemplateTarget="FieldPane" />
+            <TemplateInstruction TemplateName="PushButtons1col" TemplateTarget="DataValue" Parameters="{ParameterValues Arrangement='2 Rows'}" />
+          </Instructions>
+        </RouteItemLayoutInstructions>
+        <RouteItemLayoutInstructions RouteItemName="Click1">
+          <Instructions>
+            <TemplateInstruction TemplateName="Horizontal" TemplateTarget="FieldPane" Parameters="{ParameterValues IsStretched='True';VerticalAlignment='Top'}" />
+            <TemplateInstruction TemplateName="NumberTextBox" TemplateTarget="ResponseValue" Parameters="{ParameterValues Width='100'}" />
+          </Instructions>
+        </RouteItemLayoutInstructions>
+        <RouteItemLayoutInstructions RouteItemName="Click2">
+          <Instructions>
+            <TemplateInstruction TemplateName="Horizontal" TemplateTarget="FieldPane" Parameters="{ParameterValues IsStretched='True';VerticalAlignment='Top'}" />
+            <TemplateInstruction TemplateName="NumberTextBox" TemplateTarget="ResponseValue" Parameters="{ParameterValues Width='100'}" />
+          </Instructions>
+        </RouteItemLayoutInstructions>
+        <RouteItemLayoutInstructions RouteItemName="clicks">
+          <Instructions>
+            <TemplateInstruction TemplateName="Horizontal" TemplateTarget="FieldPane" Parameters="{ParameterValues IsStretched='True';VerticalAlignment='Top'}" />
+            <TemplateInstruction TemplateName="NumberTextBox" TemplateTarget="ResponseValue" Parameters="{ParameterValues Width='50'}" />
+          </Instructions>
+        </RouteItemLayoutInstructions>
+        <RouteItemLayoutInstructions RouteItemName="Ints">
+          <Instructions>
+            <TemplateInstruction TemplateName="Horizontal" TemplateTarget="FieldPane" Parameters="{ParameterValues IsStretched='True'}" />
+            <NewPageInstruction Locator="Before" />
+          </Instructions>
+        </RouteItemLayoutInstructions>
+        <RouteItemLayoutInstructions RouteItemName="GIntDet">
+          <Instructions>
+            <TemplateInstruction TemplateName="Table" TemplateTarget="Table" Parameters="{ParameterValues Margin='30,5,5,5';RowHeaderWidth='0';UseLocalRowHeaderNames='False'}" />
+          </Instructions>
+        </RouteItemLayoutInstructions>
+        <RouteItemLayoutInstructions RouteItemName="Notes">
+          <Instructions>
+            <TemplateInstruction TemplateName="MessageTextBox" TemplateTarget="ResponseValue" Parameters="{ParameterValues Width='600';Height='150'}" />
+            <TemplateInstruction TemplateName="Vertical" TemplateTarget="FieldPane" Parameters="{ParameterValues Width='Auto';Margin='5,35,5,5'}" />
+          </Instructions>
+        </RouteItemLayoutInstructions>
+        <RouteItemLayoutInstructions RouteItemName="RandomSt">
+          <Instructions>
+            <NewPageInstruction Locator="Before" />
+            <TemplateInstruction TemplateName="Horizontal" TemplateTarget="FieldPane" Parameters="{ParameterValues IsStretched='True';VerticalAlignment='Top'}" />
+            <TemplateInstruction TemplateName="NumberTextBox" TemplateTarget="ResponseValue" Parameters="{ParameterValues Width='100'}" />
+          </Instructions>
+        </RouteItemLayoutInstructions>
+        <RouteItemLayoutInstructions RouteItemName="ampm">
+          <Instructions>
+            <TemplateInstruction TemplateName="Button_x2_nogrp" TemplateTarget="Category" Parameters="{ParameterValues Width='250'}" ObjectName="" />
+          </Instructions>
+        </RouteItemLayoutInstructions>
+        <RouteItemLayoutInstructions RouteItemName="IntRep">
+          <Instructions>
+            <TemplateInstruction TemplateName="Button" TemplateTarget="Category" Parameters="{ParameterValues Width='250';Height='45'}" ObjectName="" />
+            <TemplateInstruction TemplateName="Vertical" TemplateTarget="FieldPane" Parameters="{ParameterValues Margin='5,0,5,5'}" />
+          </Instructions>
+        </RouteItemLayoutInstructions>
+        <RouteItemLayoutInstructions RouteItemName="TeamL">
+          <Instructions>
+            <TemplateInstruction TemplateName="NumberTextBox" TemplateTarget="ResponseValue" />
+            <TemplateInstruction TemplateName="Vertical" TemplateTarget="FieldPane" Parameters="{ParameterValues Margin='5,15,5,0'}" />
+          </Instructions>
+        </RouteItemLayoutInstructions>
+        <RouteItemLayoutInstructions RouteItemName="BInt[1].Ints">
+          <Instructions>
+            <TemplateInstruction TemplateName="NumberTextBox" TemplateTarget="ResponseValue" Parameters="{ParameterValues HorizontalAlignment='Center'}" />
+          </Instructions>
+        </RouteItemLayoutInstructions>
+        <RouteItemLayoutInstructions RouteItemName="Missing">
+          <Instructions>
+            <TemplateInstruction TemplateName="Vertical" TemplateTarget="FieldPane" Parameters="{ParameterValues Width='650'}" />
+            <NewPageInstruction Locator="After" />
+          </Instructions>
+        </RouteItemLayoutInstructions>
+      </InstanceLayoutInstructions>
+      <BlockLayoutInstructions>
+        <BlockLayoutInstructions BlockName="BIntDet">
+          <RouteItemInstructions>
+            <RouteItemLayoutInstructions RouteItemName="GTimeS">
+              <Instructions>
+                <TemplateInstruction TemplateName="NestedRow" TemplateTarget="Row" Parameters="{ParameterValues RowBorderWidth='1,1,0,0'}" />
+              </Instructions>
+            </RouteItemLayoutInstructions>
+            <RouteItemLayoutInstructions RouteItemName="GTimeEnd">
+              <Instructions>
+                <TemplateInstruction TemplateName="NestedRow" TemplateTarget="Row" Parameters="{ParameterValues RowBorderWidth='1,1,1,0'}" />
+              </Instructions>
+            </RouteItemLayoutInstructions>
+            <RouteItemLayoutInstructions RouteItemName="EndHour">
+              <Instructions>
+                <TemplateInstruction TemplateName="NumberTextBox" TemplateTarget="ResponseValue" Parameters="{ParameterValues AutoEnter='True';Margin='5,5,0,5'}" />
+              </Instructions>
+            </RouteItemLayoutInstructions>
+            <RouteItemLayoutInstructions RouteItemName="EndMinutes">
+              <Instructions>
+                <TemplateInstruction TemplateName="NumberTextBox" TemplateTarget="ResponseValue" Parameters="{ParameterValues AutoEnter='True';Margin='0,5,5,5'}" />
+                <TemplateInstruction TemplateName="TableCell" TemplateTarget="FieldPane" Parameters="{ParameterValues Margin='0,7,7,7'}" />
+              </Instructions>
+            </RouteItemLayoutInstructions>
+            <RouteItemLayoutInstructions RouteItemName="StMinutes">
+              <Instructions>
+                <TemplateInstruction TemplateName="TableCell" TemplateTarget="FieldPane" Parameters="{ParameterValues Margin='0,7,7,7'}" />
+              </Instructions>
+            </RouteItemLayoutInstructions>
+          </RouteItemInstructions>
+        </BlockLayoutInstructions>
+      </BlockLayoutInstructions>
+      <Parallels>
+        <Parallel Name="" />
+        <Parallel Name="PRIMARY">
+          <InstanceLayoutInstructions>
+            <RouteItemLayoutInstructions RouteItemName="Site">
+              <Instructions>
+                <CriticalFieldInstruction />
+              </Instructions>
+            </RouteItemLayoutInstructions>
+          </InstanceLayoutInstructions>
+        </Parallel>
+      </Parallels>
+    </LayoutSet>
+  </LayoutSets>
+  <LayoutSetGroups>
+    <LayoutSetGroup Name="Interviewing" DataEntrySettingsName="StrictInterviewing">
+      <LayoutSetNames>
+        <string>Interviewing1</string>
+      </LayoutSetNames>
+    </LayoutSetGroup>
+  </LayoutSetGroups>
+  <RoleReferences>
+    <RoleReference Name="Help" MappedTextRole="Help" />
+    <RoleReference Name="Watermark" MappedTextRole="Watermark" />
+    <RoleReference Name="ToolTip" />
+    <RoleReference Name="SpecialAnswer" />
+    <RoleReference Name="CategoryGroup" />
+    <RoleReference Name="EditMask" MappedTextRole="EditMask" />
+    <RoleReference Name="Instruction" />
+    <RoleReference Name="NumberBox" />
+    <RoleReference Name="Feedback" />
+    <RoleReference Name="FBImage" />
+    <RoleReference Name="FBStatus" />
+    <RoleReference Name="HHDet" />
+    <RoleReference Name="HHDetI" />
+    <RoleReference Name="HHDetS" />
+    <RoleReference Name="BSubmit" />
+  </RoleReferences>
+  <TypeReferences>
+    <TypeReference Name="THeader" />
+    <TypeReference Name="TCurrency" />
+  </TypeReferences>
+  <LayoutSpecFieldReferences xmlns="layoutspec">
+    <LayoutSpecFieldReference Name="RespondentTimeZone" />
+    <LayoutSpecFieldReference Name="RespondentTime" />
+    <LayoutSpecFieldReference Name="MainSurveyName" />
+    <LayoutSpecFieldReference Name="InstrumentID" />
+    <LayoutSpecFieldReference Name="InterviewerID" />
+    <LayoutSpecFieldReference Name="CaseID" />
+    <LayoutSpecFieldReference Name="Survey" />
+    <LayoutSpecFieldReference Name="Serno" />
+    <LayoutSpecFieldReference Name="MyWidth" />
+    <LayoutSpecFieldReference Name="MyHeight" />
+    <LayoutSpecFieldReference Name="MyDevice" />
+  </LayoutSpecFieldReferences>
+  <FunctionDeclarations />
+</LayoutSpecification>
